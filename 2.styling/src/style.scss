@@ -1,0 +1,30 @@
+$blue: #00aaaa;
+$green: #00aa00;
+$orange: #ff7700;
+
+a {
+  color: $blue;
+
+  &.logo{
+    font-weight: bold;
+  }
+}
+
+div.logo {
+  color: $green;
+  font-weight: bold;
+}
+
+.main-nav {
+  a {
+    color: $orange;
+    text-decoration: none;
+    border-bottom: 3px dotted #000;
+
+    &.logo {
+      color: $blue;
+      border: none;
+      text-decoration: underline;
+    }
+  }
+}
